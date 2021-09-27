@@ -9,7 +9,7 @@ technologies available for use on IBM Z and LinuxONE systems.
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Samples in this project:
 
-* [TensorFlow Serving on zCX and z/OS simple app example.]()
+* [TensorFlow Serving on zCX and z/OS simple app example.](tf-zcx-zos)
 
 ## Notes
 
