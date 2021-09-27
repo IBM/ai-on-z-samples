@@ -1,4 +1,4 @@
-# ext-java-tensorflow-sample
+# Demonstrating interaction between z/OS and TensorFlow Serving
 
 This project intends to demonstrate a call to TensorFlow Serving using REST API from a simple z/OS Java app. 
 The purpose is to create a simple and easily deployable scenario that can be used on z/OS to understand serving concepts.
