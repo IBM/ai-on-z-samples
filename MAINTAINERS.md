@@ -1,3 +1,4 @@
 # MAINTAINERS
 
-Christopher Ferris - chrisfer@us.ibm.com
+Andrew M. Sica - andrewsi@us.ibm.com
+Steve Lafalce - slafalce@us.ibm.com
