@@ -10,6 +10,7 @@ technologies available for use on IBM Z and LinuxONE systems.
 ## Samples in this project:
 
 * [TensorFlow Serving on zCX and z/OS simple app example.](tf-zcx-zos)
+* [ONNX model export and conversion examples](https://github.com/IBM/ai-on-z-samples/tree/master/onnx-conversion)
 
 ## Notes
 
