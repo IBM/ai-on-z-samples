@@ -14,8 +14,7 @@ The intent is to quickly try this project out without installing additional soft
 ## Deploying TensorFlow Serving on z/OS Container Extensions
 
 - TensorFlow Serving can be obtained from the IBM Container Image Repository or built from source for Linux on Z
-   - [IBM Container Image Repository](https://epwt-www.mybluemix.net/software/support/trial/cst/programwebsite.wss?siteId=1208&h=null&p=null)
-   - [Dockerfile](https://github.com/linux-on-ibm-z/dockerfile-examples/blob/master/TensorFlowServing/Dockerfile)
+   - [IBM Container Image Repository](https://ibm.github.io/ibm-z-oss-hub/main/main.html)
    - [Source](https://github.com/linux-on-ibm-z/docs/wiki/Building-TensorFlow-Serving)
 - Details on the TFServing API can be found here: https://www.tensorflow.org/tfx/serving/api_rest
 
