@@ -12,21 +12,6 @@ technologies available for use on IBM Z and LinuxONE systems.
 * [TensorFlow Serving on zCX and z/OS simple app example.](tf-zcx-zos)
 * [ONNX model export and conversion examples](https://github.com/IBM/ai-on-z-samples/tree/master/onnx-conversion)
 
-## Notes
-
-<!-- Questions can be useful but optional, this gives you a place to say, "This is how to contact this project maintainers or create PRs -->
-If you have any questions or issues you can create a new [issue here][issues].
-
-If you have created a sample that you would like to share, please do so - pull requests are very welcome! 
-Ideally create a topic branch for every contribution or change you would like to suggest. 
-For example:
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
 ## License
 
 If you would like to see the detailed LICENSE click [here](LICENSE).
