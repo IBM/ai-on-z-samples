@@ -22,8 +22,7 @@ This lab is intended to be run on an x86/x64 environment to demonstrate converti
     - `docker run -it --rm -p 8571:8888 <image id> `
     - This states the image in interactive mode, tells docker to delete the container upon exit, and publishes container port 8888 to host port 8571.
 
-5. From a web browser, connect to the jupyter URL provided on the prior step. Note, you must change port 8888 to port 8571!
-
+5. From a web browser, connect to the jupyter URL provided on the prior step. Note, you must change port 8888 to port 8571.
 
 6. Run through the lab exercises:
     - tfonnx_conversion.ipynb
