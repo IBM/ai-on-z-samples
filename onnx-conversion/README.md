@@ -4,7 +4,7 @@ This project contains simple jupyter notebook examples demonstrating [ONNX](http
 - Exporting a simple model from [Pytorch](https://github.com/pytorch/pytorch) to ONNX format.
 - Converting a tensorflow model to ONNX, using [tensorflow-onnx](https://github.com/onnx/tensorflow-onnx).
 
-These examples will require you install needed packages. This is not done as part of the notebook.
+These examples will require you install needed packages. This is not done as part of the notebook. However, you can use the provided Dockerfile on your x86 platform to build an environment for converting the example models to the ONNX format.
 
 There are numerous additional examples and guidance available, not only for Pytorch and TensorFlow, but for other frameworks as well.
 
