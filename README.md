@@ -30,6 +30,9 @@ This lab is intended to be run on an x86/x64 environment to demonstrate converti
 
 7. Download the .ONNX models and inspect them using [Netron](https://netron.app/)
 
+
+
+
 There are numerous additional examples and guidance available, not only for Pytorch and TensorFlow, but for other frameworks as well.
 
 This includes:
@@ -40,6 +43,4 @@ This includes:
 
 On IBM Z and LinuxONE, you can run these models using [ONNX-MLIR](https://github.com/onnx/onnx-mlir).
 For z/OS users, we recommend you try Watson Machine Learning for z/OS Trial edition, available [here](https://www.ibm.com/products/machine-learning-for-zos).
-
-
 
