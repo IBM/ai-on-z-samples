@@ -10,13 +10,14 @@
 
 FROM icr.io/ibmz/tensorflow:2.7-opts-vector
 
-RUN apt update && \
-    apt install --no-install-recommends -y build-essential gcc && \
-    apt clean && rm -rf /var/lib/apt/lists/*
-COPY ./requirements-z.txt /requirements.txt
+RUN apt-get update && apt-get install -y \
+  software-properties-common
+
 COPY ./tfonnx_conversion.ipynb /notebooks/
 
-RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install --upgrade pip \
+    && pip3 install --no-cache-dir \
+    tf2onnx
 
 WORKDIR /notebooks
 CMD jupyter notebook  --allow-root --ip 0.0.0.0 --port 8888
