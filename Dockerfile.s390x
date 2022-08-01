@@ -10,14 +10,20 @@
 
 FROM icr.io/ibmz/tensorflow:2.7-opts-vector
 
+ARG DEBIAN_FRONTEND="noninteractive"
+
 RUN apt-get update && apt-get install -y \
-  software-properties-common
+  software-properties-common \
+  cmake \
+  protobuf-compiler
 
 COPY ./tfonnx_conversion.ipynb /notebooks/
-    
+
 RUN pip3 install --upgrade pip \
     && pip3 install --no-cache-dir \
-    tf2onnx
+    onnx \
+    tf2onnx \
+    jupyter
 
 WORKDIR /notebooks
 CMD jupyter notebook  --allow-root --ip 0.0.0.0 --port 8888

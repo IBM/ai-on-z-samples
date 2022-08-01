@@ -1,4 +1,4 @@
-tensorflow==2.5
+tensorflow==2.7
 torch==1.11
 jupyter
 tf2onnx
